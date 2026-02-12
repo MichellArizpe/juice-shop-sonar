@@ -34,3 +34,12 @@ export let retrieveBlueprintChallengeFile: string | null = null
 export function setRetrieveBlueprintChallengeFile (retrieveBlueprintChallengeFileArg: string) {
   retrieveBlueprintChallengeFile = retrieveBlueprintChallengeFileArg
 }
+let retrieveBlueprintChallengeFile: string | null = null
+
+export function setRetrieveBlueprintChallengeFile (retrieveBlueprintChallengeFileArg: string) {
+  retrieveBlueprintChallengeFile = retrieveBlueprintChallengeFileArg
+}
+
+export function getRetrieveBlueprintChallengeFile () {
+  return retrieveBlueprintChallengeFile
+}
